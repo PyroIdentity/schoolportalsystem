@@ -14,7 +14,8 @@
     [x-cloak] { display: none !important; }
 </style>
 
-<body x-data="{ isLoaded: false }" x-init="isLoaded = true" class="bg-gray-50 text-gray-800 min-h-screen p-8 flex flex-col items-center overflow-x-hidden">
+<body x-data="{ isLoaded: false }" x-init="isLoaded = true" class="bg-gray-50 text-gray-800 min-h-screen p-8 flex flex-col items-center overflow-x-hidden
+bg-[url('../images/orangeStudent.png')] bg-cover bg-center">
     <main class="min-h-screen flex items-center">
         <div x-show="activePage === 'page1'"
             x-transition:enter="transition ease-out duration-500"
@@ -26,7 +27,8 @@
             class="h-full max-w-4xl mx-auto px-6">
 
             <!-- Right Side: Interactive Registration Form & File Dropzone (7 Columns) -->
-            <form class="border-x-2 border-t-2 text-center underline border-[#fda761be] self-center p-6 rounded-tl-lg rounded-tr-lg pb-8 " action="#" method="POST">
+            <form class="border-x-4 border-t-4 text-center underline border-[#fda761] self-center p-6 rounded-tl-lg rounded-tr-lg pb-8 
+            bg-[#ffffff]" action="#" method="POST">
                 <label class="w-full">
                     <span class="text-lg">Complete the required information and upload the necessary documents to submit your application.</span>
                 </label>
@@ -34,7 +36,8 @@
             </form>
 
             <!-- CONTENT -->
-            <form class="flex flex-col border-x-2 border-b-2 border-[#fda761be] self-center shadow-xl/30 p-6 rounded-br-lg rounded-bl-lg" action="#" method="POST">
+            <form class="flex flex-col border-x-4 border-b-4 border-[#fda761] self-center shadow-xl/30 p-6 rounded-br-lg rounded-bl-lg
+            bg-[#ffffff]" action="#" method="POST">
 
                 <label class="w-full">
                     <span class="text-lg">Program Selection</span>
